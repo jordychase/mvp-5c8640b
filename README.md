@@ -6,7 +6,9 @@ A clickable, fixture-driven prototype. No backend, no build step, no auth — ju
 
 ## 🔗 Live demo
 
-**→ See the live demo**: *(GitHub Pages URL — flips on automatically once the repo is pushed)*
+**→ [https://jordychase.github.io/records-chase-mvp/?skipAuth=1](https://jordychase.github.io/records-chase-mvp/?skipAuth=1)**
+
+Mobile-friendly. No clone or local server required — just open and click around. (May take a minute to spin up after the very first deploy.)
 
 URL flags you can append to the demo:
 
