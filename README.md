@@ -6,7 +6,7 @@ A clickable, fixture-driven prototype. No backend, no build step, no auth — ju
 
 ## 🔗 Live demo
 
-**→ [https://jordychase.github.io/records-chase-mvp/?skipAuth=1](https://jordychase.github.io/records-chase-mvp/?skipAuth=1)**
+**→ [https://jordychase.github.io/mvp-5c8640b/?skipAuth=1](https://jordychase.github.io/mvp-5c8640b/?skipAuth=1)**
 
 Mobile-friendly. No clone or local server required — just open and click around. (May take a minute to spin up after the very first deploy.)
 
@@ -32,8 +32,8 @@ Example: `?skipAuth=1&tab=1#/cases/pat_1001` opens the AI Chart Review for Marcu
 ## ⚡ Quick start
 
 ```bash
-git clone https://github.com/jordychase/records-chase-mvp.git
-cd records-chase-mvp
+git clone https://github.com/jordychase/mvp-5c8640b.git
+cd mvp-5c8640b
 python3 serve.py
 # open http://localhost:8080
 ```
@@ -97,7 +97,7 @@ Quick model:
 
 ## 📦 Handoff artifacts
 
-The full slide deck and screenshot bundle live in [GitHub Releases](https://github.com/jordychase/records-chase-mvp/releases) — not tracked in the repo to keep clones lean.
+The full slide deck and screenshot bundle live in [GitHub Releases](https://github.com/jordychase/mvp-5c8640b/releases) — not tracked in the repo to keep clones lean.
 
 - `TMT-Records-MVP-Handoff.html` — single-file deck (~3.8 MB), embedded screenshots, works offline
 - `screens.zip` — every PNG at 1440px wide
