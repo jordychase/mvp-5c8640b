@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title>TMT Records — The Money Team Law Firm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20260509b" />
+</head>
+<body>
+<div id="app"></div>
+
+<template id="tpl-shell">
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark">TMT</span>
+      <span class="brand-sub">RECORDS</span>
+    </a>
+    <nav class="topnav">
+      <a href="#/" data-route="/">Dashboard</a>
+      <a href="#/cases" data-route="/cases">Cases</a>
+      <a href="#/requests" data-route="/requests">Requests</a>
+      <a href="#/handoff" data-route="/handoff">Dev Handoff</a>
+    </nav>
+    <div class="userpill">
+      <div class="userpill-name">Sarah Chen</div>
+      <div class="userpill-role">Paralegal · TMT</div>
+    </div>
+  </header>
+  <main id="view"></main>
+  <footer class="legal">
+    Attorney Advertising. Past results do not guarantee future outcomes. Testimonials do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter. The Money Team Law Firm — internal records platform. Powered by Hermes Health API.
+  </footer>
+</template>
+
+<script src="fixtures.js?v=20260509b"></script>
+<script src="app.js?v=20260509b"></script>
+</body>
+</html>
